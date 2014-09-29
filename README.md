@@ -206,6 +206,7 @@ end
 * JavaScript is asynchronous, while Ruby is synchronous.
 * Ruby has symbols, while JavaScript does not.
 * Ruby has different number types (Integer, Float, Bignum, Fixnum), while JavaScript only has Number (which is a float / decimal point number)
+... just to name a few
 ```
 
 * How do you print something to the console in Javascript?
