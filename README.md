@@ -211,13 +211,17 @@ end
 * How do you print something to the console in Javascript?
 
 ```
-Your answer goes here
+console.log("hi")
 ```
 
 * Using a for loop, write code to print out all the odd numbers between 1 and 100.  You will also need to use an if statement.
 
 ```
-console.log("hi")
+for (var i = 0; i <= 100; i++) {
+  if (i % 2 !== 0) {
+    console.log(i);
+  }
+}
 ```
 
 ***
@@ -227,19 +231,19 @@ console.log("hi")
 * What is Git?  What is Github?
 
 ```
-Your answer goes here
+Git is the version control program we will be using to store our code.  Github is a website that you can store a copy of your code on and allows for easy collaboration with others.
 ```
 
 * What is the command to create an empty git repository in terminal?
 
 ```
-# ## Your answer goes here
+git init
 ```
 
 * What is the difference between `git add` and `git commit`?
 
 ```
-Your answer goes here
+git commit saves the files.  Before you can call git commit, you need to call git add in some fashion to stage the files that will be committed.  If you call git commit before you've added anything, then nothing will be committed!
 ```
 
 ***
@@ -252,7 +256,20 @@ If you finish early, work on this problem:
 Using either Ruby or Javascript, write code that will test if a given string is a palindrome.  A palindrome is a word that is the same forwards and backwards, like 'mom' or 'racecar' or 'aibohphobia'.  You are not allowed to use the built in `reverse` method or any similar methods.
 
 ```
-Your answer goes here
+Below is one solution we worked on in class.  There were many ways to solve this though!
+
+var word = "pizza";//"racecar";
+var arr = word.split("");
+var copy = [];
+for (var i = 0; i < arr.length; i += 1) {
+  copy.unshift(arr[i]);
+}
+var one = arr.join("");
+var two = copy.join("");
+var isPalindrome = one == two;
+console.log("one", one);
+console.log("two", two);
+console.log("isPalindrome", isPalindrome);
 ```
 
 
