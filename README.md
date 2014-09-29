@@ -1,6 +1,3 @@
-prework_assessment_solutions
-============================
-
 ##Command Line Basics
 
 What are the terminal commands to:
