@@ -202,7 +202,10 @@ end
 * Aside from syntax, how is Javascript different from Ruby? 
 
 ```
-Your answer goes here
+* JavaScript can run in the browser and on the server (with NodeJS), while Ruby runs only on the server.
+* JavaScript is asynchronous, while Ruby is synchronous.
+* Ruby has symbols, while JavaScript does not.
+* Ruby has different number types (Integer, Float, Bignum, Fixnum), while JavaScript only has Number (which is a float / decimal point number)
 ```
 
 * How do you print something to the console in Javascript?
@@ -214,7 +217,7 @@ Your answer goes here
 * Using a for loop, write code to print out all the odd numbers between 1 and 100.  You will also need to use an if statement.
 
 ```
-Your answer goes here
+console.log("hi")
 ```
 
 ***
